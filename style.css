@@ -1,0 +1,44 @@
+/*main{
+    font-family: 'libre Badoni',serif;
+}*/
+.cuerpo{ 
+border: 1px solid;
+align-content: space-around;
+height: 700px;
+width: 100%;
+justify-content: center;
+}
+.padre{
+    display: flex;
+    justify-content:space-evenly;
+border: 1px solid;
+
+}
+
+
+
+
+#resultado1{
+    text-align: center;
+    border: 1px solid;
+    height: 50px;
+    width: 70%;
+  /* position: relative;
+    left:300px;
+    top: 100px; */
+}
+#ganador{
+    height: 250px;
+    width: 80%;
+    font-size: 100px;
+    color: red;
+    
+
+}
+
+#resultado2{
+    text-align: center;
+    border: 1px solid;
+    height: 50px;
+    width: 70%;
+}
