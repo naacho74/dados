@@ -1,62 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Itim&family=Libre+Bodoni:ital,wght@1,700&family=Macondo&family=Prompt&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
-  
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fascinate&family=Itim&family=Libre+Bodoni:ital,wght@1,700&family=Macondo&family=Prompt&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
     <title>luis villa</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav>
-        <h1 class="titulonav">A JUGAR!</h1>
+      <h1 class="titulonav">A JUGAR!</h1>
     </nav>
-<main>
-    <section class="cuerpo">
-    <section class="padre">
-        <section class="dad1">
-        sectio
-        <img  id="dadouno" src="./img/DADO.png" alt="dado1" width="400px" height="400px">
-        <section >
-            <label id="resultado1" >jugador 1</label>
+    <main>
+      <section class="cuerpo">
+        <section class="padre">
+          <section class="dad1">
+            <section class="contenedor1">
+              <img
+                id="dadouno"
+                src="./img/DADO.png"
+                alt="dado1"
+                width="300px"
+                height="300px"
+              />
+            </section>
+            <section class="cajas1">
+              <section class="datos1">
+                <label id="resultado1">jugador 1</label>
+              </section>
+              <section class="conteo1">
+                <label id="intentoj1">Intento 0</label>
+              </section>
+            </section>
+            <section class="boton1">
+              <button class="elclic" onclick="tirar1()">Tira</button>
+            </section>
+          </section>
+          <section class="dad2">
+            <section class="contenedor2">
+              <img
+                id="dadodos"
+                src="./img/DADO.png"
+                alt="dado2"
+                width="300px"
+                height="300px"
+              />
+            </section>
+            <section class="cajas2">
+              <section class="datos2">
+                <label id="resultado2">jugador 2</label>
+              </section>
+              <section class="conteo2">
+                <label id="intentoj2">Intento 0</label>
+              </section>
+            </section>
+            <section class="boton2">
+              <button class="elclic" onclick="tirar2()">Tira</button>
+            </section>
+          </section>
         </section>
-        <section >
-            <label id="intentoj1" >Intento 0</label>
-        </section> 
-        <button class="elclic" onclick="tirar1()">Tira</button>
+        <section class="tio">
+
+            <div>
+                <label id="ganador">Play</label>
+            </div>
+            <section>
+                <button onclick="DeNuevo()">Volver A Jugar</button>
+            </section>
         </section>
-        <section class="dad2">
-        <img id="dadodos" src="./img/DADO.png" alt="dado2" width="400px" height="400px"> 
-        <section >
-            <label id="resultado2" >jugador 2</label>
-        </section> 
-        <section >
-            <label id="intentoj2" >Intento 0</label>
-        </section>  
-        <button class="elclic" onclick="tirar2()">Tira</button> 
-        </section>
-       
     </section>
-    <div>
-
-     <label id="ganador" >Play</label>
-    </div>
-    <section>
-        <button onclick="DeNuevo()">Volver A Jugar</button>
-    </section>
-    
-       
-    </section>
-
-</section>
-
 </main>
 
-<script src="./dados.js">
-    
-</script>
-</body>
+    <script src="./dados.js"></script>
+  </body>
 </html>
-

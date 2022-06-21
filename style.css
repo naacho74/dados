@@ -14,29 +14,85 @@ main{
 .cuerpo{ 
 border: 1px solid;
 align-content: space-around;
-height: 700px;
 width: 100%;
 justify-content: center;
+flex-direction: column;
 }
+.tio{
+    border:1px solid;
+    margin-top: 80px;
+}
+
 .padre{
     display: flex;
     justify-content:space-evenly;
-border: 1px solid;
+    border: 1px solid;
+    height: 800px;
 
 }
 
-
-
+.dad1{
+    border:1px solid;
+    flex-direction: column;
+    width:500px;    
+    justify-content: center;
+    
+}
+.dad2{
+    border:1px solid;
+}
+.contenedor1{
+    margin-top: 30px;
+    justify-items:center ;
+    
+    
+}
+.contenedor2{
+    margin-top: 30px;
+}
+.cajas1{
+flex-wrap: wrap;
+justify-content: center;
+width:100%;
+height: 300px;
+margin-top: 150px;
+border:1px solid;
+}
+ 
+.cajas2{
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    width:100%;
+    height: 300px;
+    margin-top: 150px;
+    border:1px solid;
+    }
+     
 
 #resultado1{
     text-align: center;
-    border: 1px solid;
+    font-size:30px;
     height: 50px;
     width: 70%;
+    border: 1px solid;
   /* position: relative;
     left:300px;
     top: 100px; */
 }
+
+.conteo1{
+margin-top:80px;
+font-size: 30px;
+text-align: center;
+border:1px solid;
+}
+
+.conteo2{
+    margin-top:80px;
+    font-size: 30px;
+    text-align: center;
+    border:1px solid;
+    }
 #ganador{
     height: 250px;
     width: 80%;
@@ -52,4 +108,5 @@ border: 1px solid;
     border: 1px solid;
     height: 50px;
     width: 70%;
+    border:1px solid;
 }
