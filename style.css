@@ -1,6 +1,16 @@
-/*main{
+nav{
+    text-align: center;
+    background-image: url(./img/fichas.jpg) ;
+    background-repeat:repeat;
+}
+.titulonav{
+    font-family: 'Shadows Into Light', cursive;
+    font-size:60px;
+}
+
+main{
     font-family: 'libre Badoni',serif;
-}*/
+}
 .cuerpo{ 
 border: 1px solid;
 align-content: space-around;
@@ -32,7 +42,8 @@ border: 1px solid;
     width: 80%;
     font-size: 100px;
     color: red;
-    
+    font-family: 'Fascinate', cursive;
+
 
 }
 
