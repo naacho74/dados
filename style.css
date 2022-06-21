@@ -1,25 +1,28 @@
+body{
+background-image: url(./img/fichazul.jpg);
+font-family: 'Shadows Into Light', cursive;
+font-size: 55px;
+background-repeat:initial;
+
+}
 nav{
     text-align: center;
     background-image: url(./img/fichas.jpg) ;
     background-repeat:repeat;
-}
-.titulonav{
     font-family: 'Shadows Into Light', cursive;
     font-size:60px;
 }
 
-main{
-    font-family: 'libre Badoni',serif;
-}
+
 .cuerpo{ 
-border: 1px solid;
+   
 align-content: space-around;
 width: 100%;
 justify-content: center;
 flex-direction: column;
 }
 .tio{
-    border:1px solid;
+    
     margin-top: 80px;
 }
 
@@ -28,22 +31,29 @@ flex-direction: column;
     justify-content:space-evenly;
     border: 1px solid;
     height: 800px;
-
+    background-image: url(./img/fichas.jpg);
 }
 
 .dad1{
-    border:1px solid;
+  
     flex-direction: column;
     width:500px;    
     justify-content: center;
+   
+
     
 }
 .dad2{
-    border:1px solid;
+    
+    flex-direction: column;
+    width:500px;    
+    justify-content: center;
+ 
+
 }
 .contenedor1{
     margin-top: 30px;
-    justify-items:center ;
+    
     
     
 }
@@ -56,7 +66,8 @@ justify-content: center;
 width:100%;
 height: 300px;
 margin-top: 150px;
-border:1px solid;
+
+font-size:40px;
 }
  
 .cajas2{
@@ -65,16 +76,25 @@ border:1px solid;
     width:100%;
     height: 300px;
     margin-top: 150px;
-    border:1px solid;
+   
+    font-size:40px;
     }
-     
+
+    
+#dadouno{
+margin-left: 130px;
+}
+#dadodos{
+    margin-left: 130px;
+    }
+    
 
 #resultado1{
-    text-align: center;
-    font-size:30px;
+  
+ justify-content: center;
     height: 50px;
     width: 70%;
-    border: 1px solid;
+   
   /* position: relative;
     left:300px;
     top: 100px; */
@@ -84,29 +104,40 @@ border:1px solid;
 margin-top:80px;
 font-size: 30px;
 text-align: center;
-border:1px solid;
+
 }
 
 .conteo2{
     margin-top:80px;
     font-size: 30px;
     text-align: center;
-    border:1px solid;
+    
     }
 #ganador{
-    height: 250px;
+  
+    justify-content:center ;
     width: 80%;
     font-size: 100px;
     color: red;
     font-family: 'Fascinate', cursive;
+    position: absolute;
+    bottom: 430px;
+    left: 820px;
 
 
 }
 
 #resultado2{
-    text-align: center;
-    border: 1px solid;
+    justify-content: center;
     height: 50px;
     width: 70%;
-    border:1px solid;
+    
 }
+
+.elclic{
+width: 300px;
+height: 130px;
+font-family: 'Fascinate', cursive;
+font-size: 40px;
+}
+

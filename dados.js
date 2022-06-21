@@ -1,18 +1,10 @@
-
-const caras=["./img/DADO1.PNG","./img/DADO2.PNG","./img/DADO3.PNG","./img/DADO4.PNG","./img/DADO5.PNG","./img/DADO6.PNG",]
-
-let dadojugador1 =0;
-let dadojugador2 =0;
 let contadorjugador1 =0;
-let contadorjugador2 =0;
 let intentoJugador1=0;
-let intentoJugador2=0;
 const dadocara1 = document.getElementById("dadouno");
-const dadocara2 = document.getElementById("dadodos");
-let repit 
-
-function tirar1()
-{ let mensaje 
+const caras=["./img/DADO1.PNG","./img/DADO2.PNG","./img/DADO3.PNG","./img/DADO4.PNG","./img/DADO5.PNG","./img/DADO6.PNG",]
+function tirar1(){ 
+  let dadojugador1 =0;
+  let mensaje 
   let quienGana
     var dado1 = Math.floor(Math.random() * 6)+1 ;
     dadocara1.src=caras[dado1-1];
@@ -38,10 +30,10 @@ function tirar1()
 
       if(contadorjugador1==21 && contadorjugador2 !=21 && intentoJugador1<=intentoJugador2 || contadorjugador1<21 && contadorjugador2>21&& intentoJugador1<=intentoJugador2)
       {
-       quienGana="Gana Jugador 1" + "   Gana Jugador 1"
+       quienGana="Gana Jugador 1" 
       } else{
               if (contadorjugador2==21 && contadorjugador1 !=21 && intentoJugador2<=intentoJugador1 || contadorjugador2<21 && contadorjugador1>21 && intentoJugador2<=intentoJugador1){
-              quienGana= "Gana Jugador 2" + "    Gana Jugador 2"
+              quienGana= "Gana Jugador 2" 
               }
               else {
                 quienGana= "Tira Jugador 2"
@@ -50,8 +42,13 @@ function tirar1()
            document.getElementById('intentoj1').innerHTML = 'Intento # ' +intentoJugador1  
            document.getElementById('ganador').innerHTML = quienGana      }
 
-function tirar2()
-{
+
+           let contadorjugador2 =0;
+           let intentoJugador2=0;
+           const dadocara2 = document.getElementById("dadodos");
+           function tirar2()
+           {
+    let dadojugador2 =0;
    let mensaje
     var dado2 = Math.floor(Math.random() * 6)+1 ;
     dadocara2.src=caras[dado2-1];
@@ -75,10 +72,10 @@ function tirar2()
     
     if(contadorjugador1==21 && contadorjugador2 !=21 && intentoJugador1<=intentoJugador2 || contadorjugador1<21 && contadorjugador2>21&& intentoJugador1<=intentoJugador2)
     {
-     quienGana="Gana Jugador 1" + "    Gana Jugador 1"
+     quienGana="Gana Jugador 1" 
     } else{
             if (contadorjugador2==21 && contadorjugador1 !=21 && intentoJugador2<=intentoJugador1 || contadorjugador2<21 && contadorjugador1>21 && intentoJugador2<=intentoJugador1){
-            quienGana= "Gana Jugador 2" + "    Gana Jugador 2"
+            quienGana= "Gana Jugador 2" 
             }
             else {
               quienGana= "Tira Jugador 1"
